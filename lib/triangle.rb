@@ -11,6 +11,7 @@ class Triangle
   
   def kind
    if triangle_rules
+   end 
      
    if @side_one == @side_two && @side_one == @side_three 
      :equilateral 
@@ -20,7 +21,7 @@ class Triangle
      :scalene 
    else 
      TriangleError
-   end 
+   
  end 
  end 
 

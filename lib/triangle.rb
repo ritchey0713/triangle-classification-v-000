@@ -10,7 +10,8 @@ class Triangle
   end 
   
   def kind(triangle)
-  
+   if @side_one == @side_two $$ @side_one == @side_three 
+     :equilateral 
     
 
 end

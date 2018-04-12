@@ -8,4 +8,5 @@ class Triangle
     @two = two 
     @three = three
   end 
+  
 end

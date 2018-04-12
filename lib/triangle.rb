@@ -9,7 +9,7 @@ class Triangle
     @side_three = side_three
   end 
   
-  def kind(triangle)
+  def kind
    if @side_one == @side_two && @side_one == @side_three 
      :equilateral 
     elsif @side_one == @side_two || @side_one == @side_three

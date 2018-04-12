@@ -12,13 +12,14 @@ class Triangle
   def kind
    if triangle_rules
    
-   elsif @side_one == @side_two && @side_one == @side_three 
+   if @side_one == @side_two && @side_one == @side_three 
      :equilateral 
     elsif @side_one == @side_two || @side_one == @side_three || @side_two == @side_three
      :isosceles 
     elsif @side_one != @side_two && @side_two != @side_three
      :scalene 
-    else 
+   end 
+   else 
      raise TriangleError
    end 
  end 

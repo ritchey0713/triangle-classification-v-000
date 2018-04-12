@@ -11,7 +11,6 @@ class Triangle
   
   def kind
    if triangle_rules
-   end 
      
    if @side_one == @side_two && @side_one == @side_three 
      :equilateral 
@@ -19,6 +18,7 @@ class Triangle
      :isosceles 
     elsif @side_one != @side_two && @side_two != @side_three
      :scalene 
+   end 
    else 
      TriangleError
    
